@@ -1,0 +1,7 @@
+import java.util.Scanner;
+
+public class variables {
+    public static void main(String[] args) {
+        int age = 18;// assignation /intialization
+        System.out.println(age);
+

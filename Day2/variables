@@ -1,0 +1,38 @@
+🚀 Day 2 – Variables & Arithmetic Operator (+) in Java
+🔹 Rule 1: String + String → String (Concatenation)
+
+String s1 = "Hello"; 
+String s2 = "World";
+String result = s1 + s2;
+
+System.out.println(result);
+
+Output
+HelloWorld
+
+
+🔹 Rule 2: String + int → String
+
+String text = "Age: ";
+int age = 20;
+
+System.out.println(text + age);
+
+Output
+Age: 20
+
+
+🔹 Rule 3: int + int → Arithmetic Addition
+int a = 10;
+int b = 20;
+
+int sum = a + b;
+
+System.out.println(sum);
+ Output
+30
+
+
+
+
+

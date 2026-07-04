@@ -1,0 +1,23 @@
+📌 Practice Problem: Sum of Two Integers
+Take two integer variables `a` and `b` with constant values and print their sum.
+Example-
+Input- a = 5
+       b = 7
+
+Solution
+
+public class SumOfTwoIntegers {
+    public static void main(String[] args) {
+
+        int a = 5;
+        int b = 7;
+
+        System.out.println(a + b);
+    }
+}
+  
+Output- 12
+Time Complexity
+O(1)
+Space Complexity
+O(1)

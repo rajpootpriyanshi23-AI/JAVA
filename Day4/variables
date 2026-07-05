@@ -6,6 +6,8 @@ Input-a = 5
 Output
 The sum of 5 & 7 is 12
 
+Solution
+
 public class SumOfTwoNumbers {
     public static void main(String[] args) {
 

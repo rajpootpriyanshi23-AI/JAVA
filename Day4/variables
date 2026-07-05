@@ -1,0 +1,26 @@
+# Day 4 – Sum of Two Integers 
+Take two integers `a` and `b` with constant values and print their sum with an appropriate message.
+ Example
+Input-a = 5
+      b = 7
+Output
+The sum of 5 & 7 is 12
+
+public class SumOfTwoNumbers {
+    public static void main(String[] args) {
+
+        // Sum of Two Integers
+
+        int a = 5;
+        int b = 7;
+
+        System.out.println("The sum of " + a + " & " + b + " is " + (a + b));
+    }
+}
+
+Output-
+The sum of 5 & 7 is 12
+Time Complexity
+O(1)
+Space Complexity
+O(1)

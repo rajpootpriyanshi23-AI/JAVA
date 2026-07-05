@@ -4,6 +4,8 @@ Example:
 Input- Name = Priyanshi
        Age = 19
 
+Solution
+
 import java.util.Scanner;
 
 public class ReadUserInput {

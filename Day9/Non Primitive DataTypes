@@ -1,0 +1,13 @@
+Non-Primitive Data Types:-
+
+
+| Data Type         |      Size     | Default Value | Represents                            |      Mutable       | Example                                        |
+| :---------------- | :-----------: | :-----------: | :------------------------------------ | :--------------:   | :--------------------------------------------- |
+| `String`          | JVM Dependent |     `null`    | Sequence of characters (Text)         | ❌ No (Immutable) | `String name = "Priyanshi";`                   |
+| `Array`           | JVM Dependent |     `null`    | Collection of same data type          |       ✅ Yes      | `int[] arr = {10,20,30};`                      |
+| `Class`           | JVM Dependent |     `null`    | Blueprint for creating objects        |      Depends       | `Student s = new Student();`                   |
+| `Object`          | JVM Dependent |     `null`    | Parent of all Java classes            |      Depends       | `Object obj = new Object();`                   |
+| `Interface`       | JVM Dependent |     `null`    | Blueprint containing abstract methods |        N/A         | `Runnable r;`                                  |
+| `Enum`            | JVM Dependent |     `null`    | Fixed set of constants                |       ❌ No       | `Day today = Day.MONDAY;`                      |
+| `Wrapper Classes` | JVM Dependent |     `null`    | Object version of primitive types     |       ❌ No       | `Integer num = 10;`                            |
+| `Collections`     | JVM Dependent |     `null`    | Dynamic collection of objects         |       ✅ Yes      | `ArrayList<Integer> list = new ArrayList<>();` |

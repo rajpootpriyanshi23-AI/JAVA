@@ -1,0 +1,15 @@
+📘 Day 7 – Data Types
+  
+  A Data Type tells Java:
+-What type of value will be stored.
+-How much memory is required.
+-What operations can be performed on that value
+
+  
+Types of DataTypes
+│
+├── Primitive
+│
+└── Non Primitive
+
+  

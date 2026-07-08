@@ -1,0 +1,16 @@
+public class NarrowingConversion {
+
+    public static void main(String[] args) {
+
+        double marks = 98.75;
+
+        int finalMarks = (int) marks;
+
+        System.out.println("Original Marks : " + marks);
+        System.out.println("After Casting  : " + finalMarks);
+
+    }
+}
+
+Original Marks : 98.75
+After Casting  : 98

@@ -1,0 +1,16 @@
+public class ExplicitTypeCasting {
+
+    public static void main(String[] args) {
+
+        double price = 499.99;
+
+        int amount = (int) price;
+
+        System.out.println("Double Value : " + price);
+        System.out.println("Integer Value: " + amount);
+
+    }
+}
+
+Double Value : 499.99
+Integer Value: 499

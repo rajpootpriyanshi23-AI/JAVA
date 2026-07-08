@@ -1,0 +1,24 @@
+public class WideningConversion {
+
+    public static void main(String[] args) {
+
+        byte b = 25;
+
+        int number = b;
+
+        long longValue = number;
+
+        double decimal = longValue;
+
+        System.out.println("Byte   : " + b);
+        System.out.println("Int    : " + number);
+        System.out.println("Long   : " + longValue);
+        System.out.println("Double : " + decimal);
+
+    }
+}
+
+Byte   : 25
+Int    : 25
+Long   : 25
+Double : 25.0

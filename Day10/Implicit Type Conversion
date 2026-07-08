@@ -1,0 +1,16 @@
+public class ImplicitTypeConversion {
+
+    public static void main(String[] args) {
+
+        int number = 50;
+
+        double value = number;
+
+        System.out.println("Integer Value : " + number);
+        System.out.println("Double Value  : " + value);
+
+    }
+}
+
+Integer Value : 50
+Double Value  : 50.0

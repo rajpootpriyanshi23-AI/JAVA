@@ -1,0 +1,16 @@
+public class CharToASCII {
+
+    public static void main(String[] args) {
+
+        char letter = 'A';
+
+        int ascii = letter;
+
+        System.out.println("Character : " + letter);
+        System.out.println("ASCII Code: " + ascii);
+
+    }
+}
+
+Character : A
+ASCII Code: 65

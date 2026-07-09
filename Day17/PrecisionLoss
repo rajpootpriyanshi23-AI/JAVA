@@ -1,0 +1,16 @@
+public class PrecisionLoss {
+
+    public static void main(String[] args) {
+
+        double pi = 3.1415926535;
+
+        float value = (float) pi;
+
+        System.out.println("Double : " + pi);
+        System.out.println("Float  : " + value);
+
+    }
+}
+
+Double : 3.1415926535
+Float  : 3.1415927

@@ -1,0 +1,16 @@
+public class OverflowExample {
+
+    public static void main(String[] args) {
+
+        int number = 130;
+
+        byte value = (byte) number;
+
+        System.out.println("Original Number : " + number);
+        System.out.println("After Casting   : " + value);
+
+    }
+}
+
+Original Number : 130
+After Casting   : -126

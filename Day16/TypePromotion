@@ -1,0 +1,15 @@
+public class TypePromotion {
+
+    public static void main(String[] args) {
+
+        byte x = 20;
+        byte y = 30;
+
+        int result = x + y;
+
+        System.out.println("Result : " + result);
+
+    }
+}
+
+Result : 50

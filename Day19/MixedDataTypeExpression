@@ -1,0 +1,16 @@
+public class MixedDataTypeExpression {
+
+    public static void main(String[] args) {
+
+        int number = 10;
+
+        double price = 5.5;
+
+        double result = number + price;
+
+        System.out.println("Answer : " + result);
+
+    }
+}
+
+Answer : 15.5

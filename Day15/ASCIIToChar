@@ -1,0 +1,16 @@
+public class ASCIIToChar {
+
+    public static void main(String[] args) {
+
+        int ascii = 66;
+
+        char letter = (char) ascii;
+
+        System.out.println("ASCII Code : " + ascii);
+        System.out.println("Character  : " + letter);
+
+    }
+}
+
+ASCII Code : 66
+Character  : B

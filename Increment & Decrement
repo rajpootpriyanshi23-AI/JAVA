@@ -1,0 +1,18 @@
+📊 Increment & Decrement
+
+| Expression | Value Returned                       | Final Value |
+| ---------- | ------------------------------------ | ----------- |
+| `++a`      | Increment first                      | `a + 1`     |
+| `a++`      | Return current value, then increment | `a + 1`     |
+| `--a`      | Decrement first                      | `a - 1`     |
+| `a--`      | Return current value, then decrement | `a - 1`     |
+
+
+Example (a = 5):
+
+| Statement                  | Output | Final `a` |
+| -------------------------- | ------ | --------- |
+| `System.out.println(++a);` | `6`    | `6`       |
+| `System.out.println(a++);` | `5`    | `6`       |
+| `System.out.println(--a);` | `4`    | `4`       |
+| `System.out.println(a--);` | `5`    | `4`       |

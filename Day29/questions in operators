@@ -1,0 +1,21 @@
+Addition of Two Numbers
+
+public class Addition {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 20;
+
+        int sum = a + b;
+
+        System.out.println("First Number  : " + a);
+        System.out.println("Second Number : " + b);
+        System.out.println("Sum           : " + sum);
+
+    }
+}
+
+output-
+First Number  : 10
+Second Number : 20
+Sum           : 30

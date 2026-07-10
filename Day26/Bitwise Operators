@@ -1,0 +1,8 @@
+⚙️ Bitwise Operators
+
+| Operator | Name               | Example  | Output |
+| -------- | ------------------ | -------- | ------ |
+| `&`      | Bitwise AND        | `5 & 3`  | `1`    |
+| `\|`     | Bitwise OR         | `5 \| 3` | `7`    |
+| `^`      | Bitwise XOR        | `5 ^ 3`  | `6`    |
+| `~`      | Bitwise Complement | `~5`     | `-6`   |

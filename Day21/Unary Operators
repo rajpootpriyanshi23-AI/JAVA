@@ -1,0 +1,9 @@
+🔄 Unary Operators
+
+| Operator | Name        | Example       | Output  |
+| -------- | ----------- | ------------- | ------- |
+| `+`      | Unary Plus  | `+5`          | `5`     |
+| `-`      | Unary Minus | `-5`          | `-5`    |
+| `++`     | Increment   | `++a` *(a=5)* | `6`     |
+| `--`     | Decrement   | `--a` *(a=5)* | `4`     |
+| `!`      | Logical NOT | `!true`       | `false` |

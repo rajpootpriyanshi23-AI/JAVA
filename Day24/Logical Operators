@@ -1,0 +1,7 @@
+🔗 Logical Operators
+
+| Operator | Name        | Example           | Output  |
+| -------- | ----------- | ----------------- | ------- |
+| `&&`     | Logical AND | `true && false`   | `false` |
+| `\|\|`   | Logical OR  | `true \|\| false` | `true`  |
+| `!`      | Logical NOT | `!false`          | `true`  |

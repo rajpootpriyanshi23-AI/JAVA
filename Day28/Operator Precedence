@@ -1,0 +1,19 @@
+📊 Operator Precedence (Highest → Lowest)
+
+
+| Precedence | Operators                       | Associativity | Example       |
+| ---------- | ------------------------------- | ------------- | ------------- |
+| 1          | `()`                            | Left to Right | `(a + b)`     |
+| 2          | `++` `--` `+` `-` `!` *(Unary)* | Right to Left | `++a`         |
+| 3          | `*` `/` `%`                     | Left to Right | `a * b`       |
+| 4          | `+` `-`                         | Left to Right | `a + b`       |
+| 5          | `<<` `>>` `>>>`                 | Left to Right | `a << 2`      |
+| 6          | `<` `<=` `>` `>=`               | Left to Right | `a > b`       |
+| 7          | `==` `!=`                       | Left to Right | `a == b`      |
+| 8          | `&`                             | Left to Right | `a & b`       |
+| 9          | `^`                             | Left to Right | `a ^ b`       |
+| 10         | `\|`                            | Left to Right | `a \| b`      |
+| 11         | `&&`                            | Left to Right | `a && b`      |
+| 12         | `\|\|`                          | Left to Right | `a \|\| b`    |
+| 13         | `?:`                            | Right to Left | `a>b ? x : y` |
+| 14         | `=` `+=` `-=` `*=` `/=` `%=`    | Right to Left | `a += 5`      |

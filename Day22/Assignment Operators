@@ -1,0 +1,10 @@
+📝 Assignment Operators
+
+| Operator | Name              | Example  | Equivalent  |
+| -------- | ----------------- | -------- | ----------- |
+| `=`      | Assignment        | `a = 10` | Assign 10   |
+| `+=`     | Add & Assign      | `a += 5` | `a = a + 5` |
+| `-=`     | Subtract & Assign | `a -= 5` | `a = a - 5` |
+| `*=`     | Multiply & Assign | `a *= 2` | `a = a * 2` |
+| `/=`     | Divide & Assign   | `a /= 2` | `a = a / 2` |
+| `%=`     | Modulus & Assign  | `a %= 3` | `a = a % 3` |

@@ -1,0 +1,10 @@
+⚖️ Relational Operators
+
+| Operator | Name                     | Example    | Output  |
+| -------- | ------------------------ | ---------- | ------- |
+| `==`     | Equal To                 | `10 == 10` | `true`  |
+| `!=`     | Not Equal To             | `10 != 5`  | `true`  |
+| `>`      | Greater Than             | `10 > 5`   | `true`  |
+| `<`      | Less Than                | `10 < 5`   | `false` |
+| `>=`     | Greater Than or Equal To | `10 >= 10` | `true`  |
+| `<=`     | Less Than or Equal To    | `10 <= 5`  | `false` |

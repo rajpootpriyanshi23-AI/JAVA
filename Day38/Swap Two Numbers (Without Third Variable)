@@ -1,0 +1,32 @@
+Swap Two Numbers (Without Third Variable)
+
+public class SwapWithoutThirdVariable {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 20;
+
+        System.out.println("Before Swapping");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("\nAfter Swapping");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+    }
+}
+
+
+output -
+Before Swapping
+a = 10
+b = 20
+
+After Swapping
+a = 20
+b = 10

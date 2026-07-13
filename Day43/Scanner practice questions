@@ -1,0 +1,23 @@
+Input Salary
+
+import java.util.Scanner;
+
+public class InputSalary {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your salary: ");
+        double salary = sc.nextDouble();
+
+        System.out.println("Salary: ₹" + salary);
+
+        sc.close();
+    }
+}
+
+Input-
+55000.75
+Output-
+Enter your salary: 55000.75
+Salary: ₹55000.75

@@ -1,0 +1,54 @@
+1. User Input (Scanner Class)
+import java.util.Scanner;
+
+2. Creating Scanner Object
+Scanner sc = new Scanner(System.in);
+
+3. Reading Integer
+float salary = sc.nextFloat();
+
+4. Reading Double
+double price = sc.nextDouble();
+
+5. Reading Character
+char grade = sc.next().charAt(0);
+
+6. Reading String (Single Word)
+String name = sc.next();
+
+7. Reading Full Sentence
+String address = sc.nextLine();
+
+8. Difference Between next() and nextLine()
+next()	nextLine()
+Reads one word	Reads complete line
+Stops at space	Reads until Enter
+Returns first word only	Returns whole sentence
+
+Example:
+Input - Priyanshi Rajpoot
+
+String name = sc.next();
+
+output - Priyanshi
+
+
+9. Why nextLine() Gets Skipped?
+int age = sc.nextInt();
+
+String name = sc.nextLine();
+
+Problem:
+name becomes empty.
+
+Solution
+
+int age = sc.nextInt();
+
+sc.nextLine();
+
+String name = sc.nextLine();
+
+
+10. Closing Scanner
+sc.close();

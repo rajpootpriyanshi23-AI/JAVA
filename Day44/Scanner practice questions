@@ -1,0 +1,23 @@
+Input Character
+
+import java.util.Scanner;
+
+public class InputCharacter {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a character: ");
+        char ch = sc.next().charAt(0);
+
+        System.out.println("Character: " + ch);
+
+        sc.close();
+    }
+}
+
+Input-
+A
+Output-
+Enter a character: A
+Character: A

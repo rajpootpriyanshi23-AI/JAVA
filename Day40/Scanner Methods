@@ -1,0 +1,14 @@
+📊 Scanner Methods
+
+| Method             | Reads         | Example Input | Example Output |
+| ------------------ | ------------- | ------------- | -------------- |
+| `nextInt()`        | Integer       | `25`          | `25`           |
+| `nextFloat()`      | Float         | `12.5`        | `12.5`         |
+| `nextDouble()`     | Double        | `99.99`       | `99.99`        |
+| `nextLong()`       | Long          | `9876543210`  | `9876543210`   |
+| `nextShort()`      | Short         | `250`         | `250`          |
+| `nextByte()`       | Byte          | `100`         | `100`          |
+| `nextBoolean()`    | Boolean       | `true`        | `true`         |
+| `next()`           | Single Word   | `Hello World` | `Hello`        |
+| `nextLine()`       | Complete Line | `Hello World` | `Hello World`  |
+| `next().charAt(0)` | Character     | `A`           | `A`            |

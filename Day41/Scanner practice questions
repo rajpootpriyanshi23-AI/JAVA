@@ -1,0 +1,24 @@
+Input and Print Student Name
+
+
+import java.util.Scanner;
+
+public class InputStudentName {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.println("Student Name: " + name);
+
+        sc.close();
+    }
+}
+
+Input-
+Priyanshi Rajpoot
+Output-
+Enter your name: Priyanshi Rajpoot
+Student Name: Priyanshi Rajpoot

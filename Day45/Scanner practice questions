@@ -1,0 +1,23 @@
+Input Boolean Value
+
+import java.util.Scanner;
+
+public class InputBoolean {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter true or false: ");
+        boolean value = sc.nextBoolean();
+
+        System.out.println("Boolean Value: " + value);
+
+        sc.close();
+    }
+}
+
+Input-
+true
+Output-
+Enter true or false: true
+Boolean Value: true

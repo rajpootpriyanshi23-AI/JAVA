@@ -1,0 +1,10 @@
+2️⃣ if-else Statement
+
+if(condition)
+{
+    // true block
+}
+else
+{
+    // false block
+}

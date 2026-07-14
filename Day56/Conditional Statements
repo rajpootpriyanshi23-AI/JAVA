@@ -1,0 +1,8 @@
+6️⃣ Switch Expression (Java 14+)
+
+String day = switch(num)
+{
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    default -> "Invalid";
+};

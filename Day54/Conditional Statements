@@ -1,0 +1,9 @@
+4️⃣ Nested if
+
+if(condition1)
+{
+    if(condition2)
+    {
+
+    }
+}

@@ -1,0 +1,16 @@
+📊 Decision Making Flow
+
+Start
+   │
+Condition?
+   │
+ ┌─┴─────┐
+ │        │
+True    False
+ │        │
+Execute  Execute
+Block 1  Block 2
+ │        │
+ └──┬─────┘
+    │
+   End

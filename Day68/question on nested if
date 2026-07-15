@@ -1,0 +1,41 @@
+Login Authentication
+
+import java.util.Scanner;
+
+public class LoginAuthentication {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String username = "admin";
+        String password = "1234";
+
+        System.out.print("Enter username: ");
+        String user = sc.next();
+
+        System.out.print("Enter password: ");
+        String pass = sc.next();
+
+        if (user.equals(username)) {
+
+            if (pass.equals(password)) {
+                System.out.println("Login Successful");
+            } else {
+                System.out.println("Incorrect Password");
+            }
+
+        } else {
+            System.out.println("Invalid Username");
+        }
+
+        sc.close();
+    }
+}
+
+Input-
+admin
+1234
+Output-
+Enter username: admin
+Enter password: 1234
+Login Successful

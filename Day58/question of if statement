@@ -1,0 +1,25 @@
+Check if a Number is Positive
+
+import java.util.Scanner;
+
+public class PositiveNumber {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt();
+
+        if (number > 0) {
+            System.out.println(number + " is a Positive Number.");
+        }
+
+        sc.close();
+    }
+}
+
+Input-
+25
+Output-
+Enter a number: 25
+25 is a Positive Number.

@@ -1,0 +1,8 @@
+finding the greatest number
+
+int a = 100,b = 12;
+        if(a < b){
+            System.out.println(" greater ");
+        }else{
+            System.out.println(" lesser ");
+        }

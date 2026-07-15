@@ -1,0 +1,25 @@
+"leap year"
+
+
+import java.util.Scanner;
+
+public class IF_5 {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //"leap year"
+
+        int year = 2027;
+        if (year % 100 == 0) {
+            if (year % 400 == 0) {
+                System.out.println("leap year");
+            } else {
+                System.out.println("not leap year");
+            }
+        }else {
+            if (year % 4 == 0) {
+                System.out.println("leap year");
+            } else {
+                System.out.println("not leap year");
+            }
+        }
+
